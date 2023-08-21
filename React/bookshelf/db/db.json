@@ -1,0 +1,34 @@
+{
+  "book": [
+    {
+      "name": "Genç Werther'in Acıları",
+      "releaseDate": "2023-08-10",
+      "author": "Goethe",
+      "pageCount": "250",
+      "isbn": "skldjfkfhı",
+      "gender": "action",
+      "publisher": "Can",
+      "id": 1
+    },
+    {
+      "name": "Harry Potter",
+      "releaseDate": "2023-08-10",
+      "author": "J.K. Rowling",
+      "pageCount": "500",
+      "isbn": "skldjfkfhı",
+      "gender": "action",
+      "publisher": "YKY",
+      "id": 2
+    },
+    {
+      "name": "İnsan Ne İle Yaşar",
+      "releaseDate": "2023-08-04",
+      "author": "Tolstoy",
+      "pageCount": "90",
+      "isbn": "kjskkdk",
+      "gender": "action",
+      "publisher": "Can",
+      "id": 3
+    }
+  ]
+}

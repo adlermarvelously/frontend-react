@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Variable</title>
+    <style>
+      :root {
+        --color-red: #ff2020;
+        --font-size: 20px;
+      }
+
+      span {
+        color: var(--color-red);
+      }
+
+      p {
+        font-size: var(--font-size);
+      }
+
+      p span {
+        --size-for-span: 1.5em;
+
+        font-size: var(--size-for-span);
+      }
+
+      p + span {
+        color: blue;
+      }
+
+      .color-green {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <article>
+      <header>
+        <h3 style="color: var(--color-red)">Yapay Zeka</h3>
+      </header>
+      <p>
+        <span>Lorem ipsum</span> dolor sit amet, stet omnium his te. Errem
+        tempor in his. Sed ut mucius suscipit, no duo partem liberavisse, vis eu
+        augue senserit. Id pro illud doming theophrastus, te sed essent commodo
+        mentitum. His in propriae atomorum liberavisse, sit ea aliquip utroque
+        dissentias.
+      </p>
+      <span
+        >Sed ut mucius suscipit, no duo partem liberavisse, vis eu augue
+        senserit.</span
+      >
+      <span class="color-green"> His in propriae at </span>
+      <span>it, no duo partem </span>
+    </article>
+  </body>
+</html>

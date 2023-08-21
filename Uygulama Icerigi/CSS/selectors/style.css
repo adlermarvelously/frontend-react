@@ -1,0 +1,55 @@
+/* element selector  */
+p{
+    color: red;
+}
+/* class selector  */
+.paragraph {
+    color: black;
+}
+/* id selector  */
+#third{
+    color: blue;
+}
+/* direct child  */
+main > h2 {
+    background-color: blueviolet;
+}
+section > h2 {
+    color: cornflowerblue;
+}
+/* all children */
+main ul {
+    background-color: aquamarine;
+}
+
+/* psuedo selectors */
+a:hover{
+    background-color: red;
+}
+a:active{
+    background-color: yellow;
+}
+/* unvisited */
+a:link{
+    background-color: black;
+}
+a:visited{
+    color: white;
+}
+
+ol>li:first-child{
+    color: blue;
+}
+ol>li:last-child{
+    color: red;
+}
+section ol > li:nth-child(2n){
+    background-color: gray;
+}
+section ol > li:nth-child(2n+1){
+    background-color: pink;
+}
+
+.last p:last-child {
+    background-color: blue;
+}
